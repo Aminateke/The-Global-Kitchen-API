@@ -1,0 +1,29 @@
+{
+  "name": "the-global-kitchen-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for managing digital recipes using Node.js, Express, and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "recipes",
+    "api",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "jest": "^29.5.0"
+  }
+}
